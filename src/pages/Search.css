@@ -1,0 +1,15 @@
+.search {
+    display: flex;
+    margin: 15px 0;
+  }
+  #outlined-basic{
+    color: white;
+    
+  }
+  .tabs{
+    color: rgb(255, 255, 255);
+    padding-bottom: 10px;
+  }
+  .maintab{
+    margin-bottom: 20px;
+  }
