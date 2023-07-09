@@ -81,7 +81,7 @@ export default function Contentmodel({children, media_type, id}) {
       <Fade in={open} className='fade'>
         <Box sx={style}>
           <Typography className='Typography' id="transition-modal-title" variant="h6" component="h2">
-          <img 
+          {/* <img 
                   src={
                     content.poster_path
                       ? `${img_500}/${content.poster_path}`
@@ -108,11 +108,14 @@ export default function Contentmodel({children, media_type, id}) {
                   >
                     Watch the Trailer
                   </Button>
-                 
+                  */}
+                  <h2>All the data will appear here releated to the Movie/TV Series</h2>
+                  <h3>Temporarily it's not working because of Api limit Extends</h3>
                   
           </Typography>
           <Typography id="transition-modal-description" sx={{ mt: 2 }}>
-          <p>{content.overview}</p>
+          {/* <p>{content.overview}</p> */}
+          <p>Sorry for inconvenience</p>
           </Typography>
         </Box>
       </Fade>
